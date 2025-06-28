@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Child Kingdom - Contact Us</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <link rel="icon" href="images/logo.jpg" type="image/jpeg"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Open+Sans&family=Merriweather&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo"><img src="images/logo.jpg" alt="Child Kingdom Logo"></div>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="enrollment.html">Enrollment</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="images/instructor.jpg" alt="Contact Child Kingdom" class="hero-image">
+      <h1>Contact Us</h1>
+      <p>We’d love to hear from you!</p>
+    </section>
+
+    <section class="content">
+      <h2>Get In Touch</h2>
+      <p>Email: <a href="mailto:info@childkingdom.com">info@childkingdom.com</a></p>
+      <p>Phone: 435-263-3080</p>
+      <p>Address: 363 Learning Lane, Kidstown, USA</p>
+
+      <h2>FAQs</h2>
+      <div class="faq">
+        <h3 onclick="toggleFAQ('faq1')">What are your daycare hours?</h3>
+        <p id="faq1" class="hidden">Our daycare is open Monday-Friday, 7 AM - 6 PM.</p>
+
+        <h3 onclick="toggleFAQ('faq2')">Do you provide meals?</h3>
+        <p id="faq2" class="hidden">Yes, we serve healthy breakfasts, lunches, and snacks prepared onsite.</p>
+
+        <h3 onclick="toggleFAQ('faq3')">What is your staff-to-child ratio?</h3>
+        <p id="faq3" class="hidden">We maintain low ratios to ensure personalized care for every child.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2021 Child Kingdom Daycare</p>
+    <div class="social">
+      <a href="https://www.facebook.com>">
+        <img src="images/facebook.png" alt="Facebook"></a>
+      
+      <a href="https://www.instagram.com">
+        <img src="images/instagram.png" alt="Instagram"></a>
+    </div>
+  </footer>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Child Kingdom - Enrollment</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <link rel="icon" href="images/logo.jpg" type="image/jpeg"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Open+Sans&family=Merriweather&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo"><img src="images/logo.jpg" alt="Child Kingdom Logo"></div>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="enrollment.html">Enrollment</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="images/game.jpg" alt="Happy children at Child Kingdom" class="hero-image">
+      <h1>Enrollment Form</h1>
+      <p>Sign up today to join our Child Kingdom family</p>
+    </section>
+
+    <section class="content">
+        <form action="#" method="post">
+        <fieldset>
+          <legend>Parent Information</legend>
+          <label>Full Name:<input type="text" name="parent_name" required></label>
+          <label>Email:<input type="email" name="parent_email" required></label>
+          <label>Phone:<input type="tel" name="parent_phone"></label>
+          <label>Address:<input type="text" name="parent_address"></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Child Information</legend>
+          <label>Child's Name:<input type="text" name="child_name"></label>
+          <label>Child's Age:<input type="number" name="child_age"></label>
+          <label>Desired Program:
+            <select name="desired_program">
+              <option value="infant">Infant Care</option>
+              <option value="toddler">Toddler Classes</option>
+              <option value="preschool">Preschool</option>
+              <option value="pre-k">Pre-Kindergarten</option>
+            </select>
+          </label>
+          <label>Preferred Start Date:<input type="date" name="start_date"></label>
+          <label>Additional Notes:<textarea name="notes"></textarea></label>
+        </fieldset>
+
+        <button type="submit">Submit Enrollment</button>
+      </form>
+    </section>
+      
+  </main>
+
+  <footer>
+    <p>&copy; 2021 Child Kingdom Daycare</p>
+    <div class="social">
+      <a href="https://www.facebook.com>">
+        <img src="images/facebook.png" alt="Facebook"></a>
+      
+      <a href="https://www.instagram.com">
+        <img src="images/instagram.png" alt="Instagram"></a>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
