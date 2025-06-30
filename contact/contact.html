@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Child Kingdom - About Us</title>
+  <title>Child Kingdom - Contact Us</title>
   <link rel="stylesheet" href="css/styles.css"/>
   <link rel="icon" href="images/logo.jpg" type="image/jpeg"/>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Open+Sans&family=Merriweather&display=swap" rel="stylesheet">
@@ -27,23 +27,28 @@
 
   <main>
     <section class="hero">
-      <img src="images/instructor.jpg" alt="Teachear with child at child Kingdom" class="hero-image">
-      <h1>About Child Kingdom</h1>
-      <p>Dedicated to early childhood education and development since 2016.</p>
+      <img src="images/instructor.jpg" alt="Contact Child Kingdom" class="hero-image">
+      <h1>Contact Us</h1>
+      <p>We’d love to hear from you!</p>
     </section>
 
     <section class="content">
-      <h2>Our Story</h2>
-      <p>Child Kingdom was founded by a team of passionate educators and parents who wanted to create a safe, nurturing, and stimulating enviroment where children can thrive.</p>
+      <h2>Get In Touch</h2>
+      <p>Email: <a href="mailto:info@childkingdom.com">info@childkingdom.com</a></p>
+      <p>Phone: 435-263-3080</p>
+      <p>Address: 363 Learning Lane, Kidstown, USA</p>
 
-      <p>Our mission is to foster curiosity, creativity, and a love of learning in every child who joins our daycare family.</p>
+      <h2>FAQs</h2>
+      <div class="faq">
+        <h3 onclick="toggleFAQ('faq1')">What are your daycare hours?</h3>
+        <p id="faq1" class="hidden">Our daycare is open Monday-Friday, 7 AM - 6 PM.</p>
 
-      <img src="images/love.jpg" alt="Teacher hugging children at Child Kingdom">
+        <h3 onclick="toggleFAQ('faq2')">Do you provide meals?</h3>
+        <p id="faq2" class="hidden">Yes, we serve healthy breakfasts, lunches, and snacks prepared onsite.</p>
 
-      <video controls>
-        <source src="media/love.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+        <h3 onclick="toggleFAQ('faq3')">What is your staff-to-child ratio?</h3>
+        <p id="faq3" class="hidden">We maintain low ratios to ensure personalized care for every child.</p>
+      </div>
     </section>
   </main>
 
@@ -51,13 +56,12 @@
     <p>&copy; 2021 Child Kingdom Daycare</p>
     <div class="social">
       <a href="https://www.facebook.com>">
-        <img src="images/Facebook.png" alt="Facebook"></a>
+        <img src="images/facebook.png" alt="Facebook"></a>
       
       <a href="https://www.instagram.com">
-        <img src="images/Instagram.png" alt="Instagram"></a>
+        <img src="images/instagram.png" alt="Instagram"></a>
     </div>
   </footer>
-
   <script src="js/scripts.js"></script>
 </body>
 </html>
